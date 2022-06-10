@@ -1,0 +1,3 @@
+# Project exclude paths
+/m-common/target/
+/m-ops/m-seata-storage/target/

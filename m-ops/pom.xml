@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>m_cloud</artifactId>
+        <groupId>org.mcloud</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>m-ops</artifactId>
+    <name>${project.artifactId}</name>
+    <packaging>pom</packaging>
+    <modules>
+        <module>m-swagger</module>
+        <module>m-seata-order</module>
+        <module>m-seata-storage</module>
+    </modules>
+
+</project>

@@ -1,0 +1,7 @@
+#spring:
+#  application:
+#    name: m-seata-storage
+#  profiles:
+#    include: common
+#spring.application.name=m-seata-storage
+#spring.profiles.include=common

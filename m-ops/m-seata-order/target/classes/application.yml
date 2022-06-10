@@ -1,0 +1,6 @@
+spring:
+  application:
+    ## 服务名称
+    name: m-seata-order
+  profiles:
+    include: common
